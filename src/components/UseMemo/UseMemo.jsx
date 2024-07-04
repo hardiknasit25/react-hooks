@@ -16,8 +16,8 @@ function UseMemo() {
 
       <div className="w-50em p-10 flex flex-col justify-center items-center gap-5 bg-[#DAD3BE] rounded-lg shadow-lg">
         <h1 className="font-bold text-3xl text-[#254336] text-center">UseMemo Hook Example</h1>
-        
-        <input type="number" placeholder="Enter your name" value={number} onChange={(e) => setNumber(e.target.value)} className="w-[20em] h-[2em] p-5 outline-none bg-transparent border-2 border-slate-50 rounded-md text-black font-semibold" />
+
+        <input type="number" placeholder="Enter any number" value={number} onChange={(e) => setNumber(e.target.value)} className="w-[20em] h-[2em] p-5 outline-none bg-transparent border-2 border-slate-50 rounded-md text-black font-semibold" />
         <span className="text-[#6B8A7A] font-medium text-2xl">Cube of numer is <span className="text-[#254336]">{result} </span></span>
 
         <span className="text-[#6B8A7A] font-medium text-2xl">Count is <span className="text-[#254336]">{count} </span></span>
