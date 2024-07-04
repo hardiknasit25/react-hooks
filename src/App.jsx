@@ -6,7 +6,7 @@ import UseState from "./components/Usestate/UseState";
 
 export default function App() {
   return (
-    <div className="h-full w-fullp-5">
+    <div className="flex flex-wrap p-5 justify-start items-center">
       <UseState/>
       <UseEffect/>
       <UseRef/>
