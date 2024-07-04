@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react"
-import Temp from "./Temp"
+import Temp from "./Temp.jsx"
 
 function UseCallback() {
   const [count, setCount] = useState(0)
