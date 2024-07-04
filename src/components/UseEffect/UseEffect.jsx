@@ -16,6 +16,7 @@ function UseEffect() {
         <h1 className="font-bold text-[2em] text-[#254336] items-center text-center">UseEffect Hook Example</h1>
         <span className="text-[#6B8A7A] font-medium text-[1.5em]">Count is <span className="text-[#254336]">{count} </span></span>
       </div>
+      
     </div>
   )
 }
