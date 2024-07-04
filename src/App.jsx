@@ -1,7 +1,9 @@
+import UseState from "./components/Usestate/UseState";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="h-full w-fullp-5">
+      <UseState/>
+    </div>
   )
 }
